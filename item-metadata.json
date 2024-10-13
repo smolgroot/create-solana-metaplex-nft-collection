@@ -1,0 +1,32 @@
+{
+  "name": "My NFT Item",
+  "symbol": "MYITEM",
+  "description": "This is a unique item in the NFT collection.",
+  "seller_fee_basis_points": 500,  // 5% seller fee
+  "image": "https://example.com/item-image.png",
+  "external_url": "https://example.com",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Digital Art"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://example.com/item-image.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "YourSolanaWalletAddress",
+        "share": 100
+      }
+    ]
+  }
+}

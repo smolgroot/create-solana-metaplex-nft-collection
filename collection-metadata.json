@@ -1,0 +1,28 @@
+{
+  "name": "My NFT Collection",
+  "symbol": "MYCOLL",
+  "description": "This is a collection of unique NFTs.",
+  "seller_fee_basis_points": 500,  // 5% seller fee
+  "image": "https://example.com/collection-image.png",
+  "external_url": "https://example.com",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Art"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://example.com/collection-image.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "YourSolanaWalletAddress",
+        "share": 100
+      }
+    ]
+  }
+}
